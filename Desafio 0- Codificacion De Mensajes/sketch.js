@@ -40,7 +40,7 @@ function cifradoVigenere(frase, clave) {
   return respuesta;
 }
 
-let fraseEjemplo1 = "YO HE LOGRADO ENCENDER UNA CERILLA";
-let claveEjemplo1 = "23";
-let mensajeCifrado1 = cifradoVigenere(fraseEjemplo1, claveEjemplo1);
-console.log(mensajeCifrado1);
+let fraseEjemploDelEnunciado = "YO HE LOGRADO ENCENDER UNA CERILLA";
+let claveEjemploDelEnunciado = "23";
+let mensajeDelCifradoQueElEnunciadoMePide = cifradoVigenere(fraseEjemploDelEnunciado, claveEjemploDelEnunciado);
+console.log(mensajeDelCifradoQueElEnunciadoMePide);

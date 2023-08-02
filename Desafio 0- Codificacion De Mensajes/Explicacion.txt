@@ -1,0 +1,32 @@
+                            EXPLICACION DEL CIFRADO VIGENERE
+
+1. Se define una funcion llamada "cifradoVigenere" que toma dos parametros: "frase" y "clave". Esta funcion sera usada para cifrar el mensaje utilizando el cifrado Vigenere con la clave especificada por el enunciado o cliente.
+
+2. Se define la variable "alfabeto" (variable que marquitos aprueba) que contiene todas las letras mayusculas del alfabeto en orden, desde la "A" hasta la "Z".
+
+3. Se crea una variable llamada "respuesta" con un String vacio. Esta variable se utilizara posteriormente para guardar el mensaje cifrado resultado de este increible code.
+
+4. Se crea(?) un bucle "for" que recorre cada letra de la variable "frase".
+
+5. En cada iteracion del bucle, la variable "letra" se inicializa con la letra actual de la "frase", convertida a mayusculas utilizando el metodo "toUpperCase()".
+
+6. Si la "letra" es un espacio en blanco, se elimina y agrega ya modificada a la variable "respuesta", para asi no mantener los espacios utilizaados y hacer caso al enunciado.
+
+7. Si la "letra" no es un espacio en blanco, se procede a cifrar la letra utilizando el cifrado Vigenere:
+
+   a. Se obtiene la posicion de la "clave" correspondiente a la posicion actual del bucle utilizando el operador `%` (modulo o resto segun MDN). Esto se hace para asegurarse de que la clave se repita en caso de que su longitud sea menor que la longitud de la frase.
+
+   b. Se busca la posicion de la "letra" en el "alfabeto" utilizando el metodo "indexOf()". Si la "letra` no se encuentra en el "alfabeto", su posición será "-1".
+
+   c. Si la "letra" se encuentra en el "alfabeto", se calcula la nueva posicion de la letra cifrada sumando la posicion actual y el numero de la clave. El resultado se reduce a un valor entre 0 y 25 utilizando el operador `%` (modulo o tmb llamado RESTO segun MDN (creo que se entendio)), ya que el alfabeto tiene 26 letras (27 en el español o castellano o argentino o Se entiende).
+
+   d. Finalmente, se obtiene la letra cifrada del "alfabeto" utilizando la nueva posicion calculada y se agrega a la variable "respuesta".
+
+8. Despues de que finaliza el bucle "for", se "returnea" la variable "respuesta", que contiene el mensaje cifrado resultante (resultante me hace acordar a Fuezas colineales de fisica xdd, gaby del futuro se acordara?).
+
+9. Se realizan dos ejemplos de uso de la funcion "cifradoVigenere" en el enunciado, aqui tienen 1 el otro es lo mismo, probalo vos si queres jsjs:
+
+   a. En el primer ejemplo, la variable "fraseEjemploDelEnunciado" contiene el mensaje "YO HE LOGRADO ENCENDER UNA CERILLA" y la variable "claveEjemploDelEnuncaido" contiene la clave "23". Se llama a la funcion "cifradoVigenere" con estos valores y se guarda el resultado en la variable "mensajeDelCifradoQueEl...". Luego, se muestra el resultado en la consola.
+
+
+    
