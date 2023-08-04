@@ -6,4 +6,4 @@ function sumaNumeros(arr) {
         }
     }
 
-    console.log(sumaNumeros([2, 5, 6, 7])); 
+    console.log(sumaNumeros([8, 3, 6, 9])); 
