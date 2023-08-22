@@ -1,0 +1,19 @@
+función resolverLaberinto(fila, columna):
+    si (fila, columna) es el destino:
+        Marcar (fila, columna) como parte del camino de la solución.
+        Devolver verdadero
+
+    si (fila, columna) es una pared o está fuera de los límites:
+        Devolver falso
+
+    Marcar (fila, columna) como parte del camino.
+
+    para cada dirección válida (arriba, abajo, izquierda, derecha):
+        si resolverLaberinto(nueva_fila, nueva_columna) es verdadero:
+            Devolver verdadero (solución encontrada)
+
+    Marcar (fila, columna) como no parte del camino (retroceso).
+    Devolver falso
+
+comenzar desde la celda de entrada
+llamar a resolverLaberinto(fila_inicial, columna_inicial)

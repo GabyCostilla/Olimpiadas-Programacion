@@ -1,0 +1,15 @@
+    Casos Base:
+        Si estás en la casilla de salida, marca la casilla y devuelve "laberinto resuelto".
+        Si estás en una pared o fuera del laberinto, devuelve "no se puede avanzar".
+
+    Pasos Recursivos:
+        Intenta moverte en cada dirección posible (arriba, abajo, izquierda, derecha).
+        Para cada dirección, verifica si es un movimiento válido (no es una pared y está dentro del laberinto).
+        Si es un movimiento válido, marca la casilla actual y realiza una llamada recursiva a la siguiente casilla.
+
+    Retroceso (Backtracking):
+        Si has agotado todas las direcciones y no has alcanzado la salida, retrocede a la casilla anterior, desmarca la casilla y devuelve "no hay solución".
+
+    Inicio:
+        Comienza desde la casilla de entrada.
+        Llama a la función recursiva desde esta casilla.
