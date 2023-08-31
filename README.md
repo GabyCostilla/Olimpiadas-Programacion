@@ -1,6 +1,6 @@
 # 🏆 Olimpiada de Programación 🏆
 
-Bienvenidos al repositorio oficial de la Olimpiada de Programación.
+Bienvenidos al repositorio oficial de GabyCostilla para la Olimpiada de Programación 2023.
 
 ## ❓ ¿Qué es la Olimpiada de Programación? ❓
 
