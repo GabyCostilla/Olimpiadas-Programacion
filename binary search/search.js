@@ -1,4 +1,4 @@
-let array = [40, 1, 5, 200];
+let array = [40, 1, 5, 200,28,55];
 function comparar(a, b) {
   return a - b;
 }
@@ -19,7 +19,7 @@ console.log(array)
     }
     
    
-    let numero = 3;
+    let numero = 5;
     let resultado = buscarNumeroEnArray(array, numero);
     if(resultado == true){
         console.log(true)
