@@ -16,7 +16,7 @@ const columnaInicial = 0;
 
 const resultado = resolverLaberinto(laberinto, filaInicial, columnaInicial);
 
-if (resultado ) {
+if (resultado == true) {
     console.log("Laberinto resuelto");
 } else {
     console.log("No se encontró solución");
