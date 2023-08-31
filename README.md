@@ -17,3 +17,8 @@ En este repositorio encontrarás ejercicios resueltos por mi para participar en 
 ## 📧 Contacto 📧
 
 Si tienes alguna pregunta o necesitas ayuda, no dudes en contactarnos a través de nuestra página web o enviándonos un correo electrónico a gabrielckeret@gmail.com o en mi instagram @gabnzana_en_compota
+
+Este proyecto es parte de una colaboración con el Instituto Técnico Renault Argentina, donde se promueve el aprendizaje práctico y la evolucion personal
+
+- Pagina Oficial: [Instituto Técnico Renault](https://www.itr.edu.ar/)
+- Instagram: [@Instituto Técnico Renault](https://www.instagram.com/instituto_tecnico_renault/)
