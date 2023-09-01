@@ -1,5 +1,3 @@
-//ESTO NO ES MIO
-
 
 function resolverLaberinto(laberinto, fila, columna) {
   const numRows = laberinto.length;
