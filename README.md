@@ -24,5 +24,4 @@ Este proyecto es parte de una colaboración con el Instituto Técnico Renault Ar
 - Instagram: [@Instituto Técnico Renault](https://www.instagram.com/instituto_tecnico_renault/)
 
 ## 🙏 Agradecimiento 🙏
-
-quiero agradecer a [@sem1312](https://github.com/sem1312) y a [@fabrikpz] por haberme ayudado en este desafio llamado "olimpiada" no lo logre pero les agradezco de corazon todo lo que me ayudaron, y obviamente muchisimas gracias a mi profesor que me enseño muchisimo mas de lo que ya sabia, gracias[@hrgarcia](https://github.com/hrgarcia) y [marcospiccotto](https://github.com/MarcosPiccotto)
+Quiero agradecer a [@sem1312](https://github.com/sem1312) y a [@fabrikpz](https://github.com/Fabrikpz) por haberme ayudado en este desafío llamado "olimpiada" 🙌. No lo logré, pero les agradezco de corazón todo lo que me ayudaron ❤️. Y obviamente, muchísimas gracias a mi profesor que me enseñó muchísimo más de lo que ya sabía, gracias [@hrgarcia](https://github.com/hrgarcia) y [marcospiccotto](https://github.com/MarcosPiccotto) 📚.
